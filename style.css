@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: rgb(59, 53, 53);
+
+}
+
+.section-1 {
+    height: 100%;
+    width: 80%p;
+    display: flex;
+    align-items: center;
+}
+
+.section-1 img {
+
+    width: 70%;
+}
+
+.top1 {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+
+
+
+}
+
+span {
+    color: tomato;
+}
+
+.bottom {
+
+    text-decoration: none;
+    background-image: linear-gradient(rgb(174, 0, 255), rgb(255, 60, 0));
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: aliceblue;
+    margin-top: 50px;
+
+
+}
+
+.section-2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section-2 {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.img-2 {
+
+    width: 10%;
+    padding-top: 10%;
+    padding-left: 10px;
+
+}
+
+.recipe-text {
+    text-align: center;
+    color: gray;
+}
+
+.parent-div {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.child-div {
+    align-items: center;
+    box-shadow: 5px 5px 100px 5px gray;
+    margin-left: 40px;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+.child-div img {
+    height: 600px;
+    width: 100%;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 100px 5px gray;
+    width: 78%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.count-div {
+    width: 33%;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    align-items:center;
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-size: cover;
+    color:aliceblue;
+}
+footer p{
+    color:aliceblue;
+}
